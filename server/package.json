@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "This is a basic real time chat application without using database to store previous messages. It is based on socket.io for backend and html,css for frontend.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atul9180/ChitChat-App.git"
+  },
+  "keywords": [
+    "chatting",
+    "App",
+    "node.js"
+  ],
+  "author": "Atul Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Atul9180/ChitChat-App/issues"
+  },
+  "homepage": "https://github.com/Atul9180/ChitChat-App#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
