@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><img src="./chat.png" />ChitChat App</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">  -->
+    <link href="./style.css" rel="stylesheet" >
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+</head>
+<body>
+    
+    <nav>
+        <img class="logo" src="./chat.png" />
+        <h1>Welcome to iChat App</h1>
+    </nav>
+  
+    <!-- Message Box -->
+      <div class="container">
+        <div class="message center">Svelte Joined the chat</div>
+        <div class="message left">Svelte: This is a library. It is one of the famous library used for frontend. kjkjkkkjkj khjkjhkj hjlkjhlk hlkjlkjlkjlk </div> 
+        <div class="message left">Svelte: This is a library. It is one of the famous library used for frontend. kjkjkkkjkj khjkjhkj hjlkjhlk hlkjlkjlkjlk </div> 
+        <div class="message center">Express Joined the chat</div>
+        <div class="message right">Express: This is a node.js framework. It is one of the famous library used for as se de d backend and mostly used with mongo for db.</div>
+        <div class="message right">Express: This is a node.js framework. It is one of the famous library used for as se de d backend and mostly used with mongo for db.</div>
+        <div class="message center">Atul Joined the chat</div>
+        <div class="message left">Svelte: This is a library. It is one of the famous library used for frontend. </div>
+        <div class="message right">Express: This is a node.js framework. It is one of the famous library used .</div>
+      </div>
+  
+      
+     <!-- Message Send Box -->
+        <div class="send">
+            <form id="send-container"  action="#">
+                <input type="text" id="messageInput" name="messageInput" required /><button class="btn" type="submit">Send</button>
+                </form>
+        </div>
+    
+        
+
+
+</body>
+</html>
